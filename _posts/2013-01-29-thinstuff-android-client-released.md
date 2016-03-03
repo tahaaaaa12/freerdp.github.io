@@ -26,9 +26,9 @@ connections</p>
 have to install the Android NDK/SDK and ant. For detailed instructions<br />
 on how to build aFreeRDP refer to docs/README.android.</p>
 <p>Thinstuff strongly believes in FreeRDP and we think that aFreeRDP is a<br />
-perfect addition to the available clients. We hope you like it <img src='http://www.freerdp.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> .</p>
+perfect addition to the available clients. We hope you like it <img src='http://www.freerdp.com/img/icon_smile.gif' alt=':)' class='wp-smiley' /> .</p>
 <p>Best regards,</p>
 <p>your Thinstuff Team</p></blockquote>
-<p>The Android client sources have been merged into git master, ready to be improved on <img src='http://www.freerdp.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  Releasing the iOS client is next on the list.</p>
+<p>The Android client sources have been merged into git master, ready to be improved on <img src='http://www.freerdp.com/img/icon_smile.gif' alt=':)' class='wp-smiley' />  Releasing the iOS client is next on the list.</p>
 <p>A development snaphost is available <a href="http://pub.freerdp.com/snapshots/android/20130129/aFreeRDP.apk" >here</a> if you want to try it on your Android device now.</p>
 <p>UPDATE: aFreeRDP is now available on <a href="https://play.google.com/store/apps/details?id=com.freerdp.afreerdp" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://play.google.com']);">Google Play</a>.</p>
