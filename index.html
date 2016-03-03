@@ -1,1 +1,83 @@
-Work in progress
+---
+layout: default
+title: FreeRDP
+---
+
+
+<div class="header header_home page">
+		
+		
+	<!-- Start Slider -->
+	<div id="slider">
+		<div class="slides">
+							<div><img src="/img/freerdp_main_screenshot1.png" alt="" class="main_screenshot" /></div>				        	        	        	        			
+		</div>
+			</div>
+	<!-- End Slider -->
+
+	<!-- Start App Info -->
+	<div class="info">
+		<h1>FreeRDP: A Remote Desktop Protocol Implementation</h1>
+		<p>FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license. Enjoy the freedom of using your software wherever you want, the way you want it, in a world where interoperability can finally liberate your computing experience.<br /><br />
+
+IRC: &#35;freerdp &#64; irc.freenode.net
+</p>
+		
+		<a href="https://github.com/FreeRDP/FreeRDP" class="button icon"><img src="/img/go_icon.png" alt="Download Now!" /><span>Download Now!</span></a>
+		<span class="trial"></span>
+	</div>
+	<!-- End App Info -->
+	<div class="clear"></div>
+	
+</div>
+
+<div id="home" class="padding">
+	
+	<div id="screenshots">
+	
+		<div class="section_title">
+			<h3>Screenshots</h3>
+		</div>
+	
+		<a href="javascript:;" class="controls prev">Previous</a>
+	
+		<div class="scrollable">
+			<div class="items">
+				
+				<div><a href="/img/freerdp_screenshot3.png" class="screenshot" rel="group" title="FreeRDP"><img src="/img/freerdp_screenshot3.png" style="width:145px; height:100px;" alt="" /></a></div>
+				
+				<div><a href="/img/freerdp_remotefx_rdsh.png" class="screenshot" rel="group" title="RemoteFX"><img src="/img/freerdp_remotefx_rdsh.png" style="width:145px; height:100px;" alt="" /></a></div>
+				
+				<div><a href="/img/freerdp_tsmf_bbb.png" class="screenshot" rel="group" title="Multimedia Redirection"><img src="/img/freerdp_tsmf_bbb.png" style="width:145px; height:100px;" alt="" /></a></div>
+				
+				<div><a href="/img/freerdp_remoteapp2.png" class="screenshot" rel="group" title="RemoteApp"><img src="/img/freerdp_remoteapp2.png" style=" height:100px;" alt="" /></a></div>
+				
+				<div><a href="/img/mstsc_remotefx_freerdp_server.png" class="screenshot" rel="group" title="Experimental FreeRDP X11 RemoteFX Server"><img src="/img/mstsc_remotefx_freerdp_server.png" style="width:145px; height:100px;" alt="" /></a></div>
+						</div>
+		</div>
+	
+		<a href="javascript:;" class="controls next">Next</a>
+		
+		<div class="clear"></div>
+	</div>
+	
+	<div id="features"></div>
+	<div class="section_title">
+			<h3>Recent Blog Posts</h3>
+		</div>
+        <ul class="posts">
+<div class="blog-index">  
+  {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+  {% include post_detail.html %}
+</div>
+	  {% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
+
+<div class="bottom"></div>
+</div>
+
+<div id="footer" class="page">
+  </div>

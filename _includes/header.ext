@@ -1,0 +1,36 @@
+<head>
+	<title>
+  {% if page.title %}
+    {{ page.title }}
+  {% else %}
+ FreeRDO
+  {% endif %}
+</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{{ site.description }}" />
+<link rel="alternate" type="application/atom+xml" title="FreeRDP" href="{{site.url }}/atom.xml" />
+<link rel="alternate" type="application/rss+xml" title="FreeRDP" href="{{site.url }}/feed.xml" />
+	
+	<link rel="shortcut icon" href="/img/FreeRDP-fav.ico" />
+	
+	 <link rel="stylesheet" type="text/css" href="/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/css/freerdp.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/css/jquery.fancybox-1.3.4.css" />
+       
+
+<script type="text/javascript" src="/js/jquery.js"></script>
+	<script type="text/javascript" src="/js/jquery.fancybox-1.3.4.pack.js"></script>
+			<script type="text/javascript" src="/js/jquery.tools.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			$(document).ready(function() {
+				// Configure scrollable plugin
+				$(".scrollable").scrollable({ });
+			});
+		</script>
+		<script type="text/javascript" src="/js/site.js"></script>
+
+{% if page.description %}
+  <meta name="description" content="{{ page.description}}" />
+{% endif %}
+        
+</head>
