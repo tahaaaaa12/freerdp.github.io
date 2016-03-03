@@ -14,6 +14,7 @@ author: marc
 <p><a href="https://itunes.apple.com/us/app/ifreerdp/id604813768" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://itunes.apple.com']);"><img class="alignnone size-full wp-image-146" title="iFreeRDP-qr" src="http://www.freerdp.com/img/iFreeRDP-qr.png" alt="" width="245" height="245" /></a></p>
 <p>&nbsp;</p>
 <h1>Android (aFreeRDP)</h1>
+<p>&nbsp;</p>
 <p>
 <a href="https://play.google.com/store/apps/details?id=com.freerdp.afreerdp&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" style="width:140px;" />
 </a></p>
