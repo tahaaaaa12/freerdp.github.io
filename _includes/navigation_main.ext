@@ -1,7 +1,8 @@
+<img src="/img/rabbit.png" id="rabbit"/>
 	<div id="header">
 		<div class="page">
 			<a href="/" class="logo">
-									<img src="/img/freerdp_font_logo.png" alt="FreeRDP" />			</a>
+									<img src="/img/freerdp_text_logo.png" alt="FreeRDP" />			</a>
 			
 			<ul><li><a class="current_page_item" href="/">Home</a></li><li class="page_item page-item-88"><a href="http://pub.freerdp.com/api/" target="_blank">API</a></li>
 <li class="page_item page-item-47"><a href="https://github.com/FreeRDP/FreeRDP" target="_blank">GitHub</a></li>

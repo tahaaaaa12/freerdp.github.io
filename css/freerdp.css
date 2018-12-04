@@ -12,7 +12,7 @@ img#rabbit {
 	right: 55%;
 	margin: 0 -222px;
 	z-order: 10000;
-	opacity: 0.2;
+	opacity: 0.1;
 }
 
 div#page .header_home {
@@ -100,4 +100,8 @@ a.button {
 
 a.button span{
 	background: url('../img/button_left.png') no-repeat top left;
+}
+
+div .post {
+	color: black;
 }
